@@ -34,3 +34,11 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      - name: Print system info
+        run: |
+          echo $PATH
+          node -v
+          npm -v
+          python --version
+          java --version
+          cmake --version
