@@ -42,3 +42,6 @@ jobs:
           python --version
           java --version
           cmake --version
+          cgns --version
+          g++ --version
+          git version
