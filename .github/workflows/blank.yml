@@ -44,3 +44,5 @@ jobs:
           cmake --version
           g++ --version
           git version
+          pwd
+          ls
